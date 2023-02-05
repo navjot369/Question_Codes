@@ -4,6 +4,7 @@ int fibo(int num);
 
 int main(){
     int num;
+    // Taking input from the user.
     printf("Enter the number of terms: ");
     scanf("%d", &num);
 

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int fibo(int num);
-
+//this is the main function.
 int main(){
     int num;
     // Taking input from the user.

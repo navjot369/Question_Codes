@@ -7,7 +7,7 @@ int main(){
     printf("Enter the number: ");
     scanf("%d", &num);
 
-    printf("Sum of natural numbers upto %d is %d", num, sumn(num));
+    printf("Sum of first %d natural numbers is %d", num, sumn(num));
     return 0;
 }
 

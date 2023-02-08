@@ -4,5 +4,6 @@ We aim to be the most trusted partner in prosperityin agriculture by bench marki
 
 
   This is a sample text file 1.
-
-
+  
+  Git fetch command will help you to get data from the remote server but will not merge it automatically, rather will keep it as in other branch.
+  

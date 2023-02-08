@@ -1,4 +1,7 @@
+#This is to ignore vscode files
 .vscode
 Codes.code-workspace
-*.exe
-[A[C[C[C[C[C[D[D[D[a[B[D[AC/.exe
+
+#This is to ignore C compiled files.
+C/a.exe
+

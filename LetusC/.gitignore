@@ -1,1 +1,3 @@
-a.exe
+# To ignore the program file made by C compiler during the execution of the program.
+*.exe
+

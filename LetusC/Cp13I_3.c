@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    int size;
+    printf("Enter size: ");
+    scanf("%d", &size);
+
+    int arr[size];
+    for(int i=0; i<size; i++)
+    {
+        printf("Enter element(%d): ", i+1);
+        scanf("%d", &arr[i]);
+    }
+
+    int min=0;
+    for(int i=1; i<size; i++)
+    {
+        if(*(arr+i)<*(arr+min))
+        {
+            min=i;
+        }
+    }
+    printf("Minimum among all these numbers is: %d", *(arr+min));
+}
